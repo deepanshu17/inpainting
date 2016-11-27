@@ -1,7 +1,7 @@
 function inpainting_test()
     clear all;
     clc;
-    img = imread('test/10.png');
+    img = imread('test/01.jpg');
     % figure
     subplot(3,1,1), imshow(img) % debug
     % Creating a mask for the black tick line.
